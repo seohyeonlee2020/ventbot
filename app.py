@@ -1,10 +1,12 @@
 import streamlit as st
+import streamlit_chat
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
-from streamlit_extras.add_vertical_space import add_vertical_space
+# from streamlit_extras.add_vertical_space import add_vertical_space
 from hugchat import hugchat
 
 st.set_page_config(page_title="ventbot - talk about anything")
+# print(st.session_state)
 
 if 'bot_response' not in st.session_state:
     st.session_state['bot_response'] = ["Hi, what do you want to talk about today?"]
