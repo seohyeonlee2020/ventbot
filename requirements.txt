@@ -1,0 +1,4 @@
+streamlit==1.33.0
+# streamlit_chat==<version>
+# streamlit_extras==<version>
+# hugchat==<version>
